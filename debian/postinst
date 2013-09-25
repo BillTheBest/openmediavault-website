@@ -1,0 +1,67 @@
+#!/bin/sh
+#
+# Copyright (C) 2012 Marcel Beck
+# Copyright (C) 2013 OpenMediaVault Plugin Developers
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+set -e
+
+. /etc/default/openmediavault
+. /usr/share/openmediavault/scripts/helper-functions
+
+case "$1" in
+    configure)
+        if ! omv_config_exists "/config/services/website"; then
+        omv_config_add_element "/config/services" "website"
+        fi
+    
+        if ! omv_config_exists "/config/services/website/enable"; then
+            omv_config_add_element "/config/services/website" "enable" "0"
+        fi
+    
+        if [ ! -e /var/www/openmediavault-website/php.ini ]; then
+            cp /var/www/openmediavault/cgi/php.ini /var/www/openmediavault-website/php.ini
+        fi
+        
+        chmod 755 /var/www/openmediavault-website
+        chmod 644 /var/www/openmediavault-website/php.ini
+        chmod 744 /var/www/openmediavault-website/php-fcgi
+        
+        if [ "$(omv_config_get "/config/services/website/enable")" = "1" ]; then
+            CGI_USER="$(omv_config_get "/config/services/website/cgiuser")"
+            CGI_GROUP=""
+            
+            if [ "${CGI_USER}" != "" ]; then
+                CGI_GROUP="$(omv_config_get "/config/website/cgiuser")"
+                
+                if [ "${CGI_USER}" != "" ] && [ "${CGI_GROUP}" != "" ]; then
+                    chown -R ${CGI_USER}:${CGI_GROUP} /var/www/openmediavault-website
+                fi
+            fi
+        fi
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument '$1'" >&2
+        exit 1
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

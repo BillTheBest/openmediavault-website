@@ -1,0 +1,5 @@
+openmediavault-website (0.5) stable; urgency=low
+
+  * Initial OMV 0.5 release
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sun, 24 Sep 2013 19:53:07 +0200
