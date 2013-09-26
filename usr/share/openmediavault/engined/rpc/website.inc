@@ -167,7 +167,7 @@ class OMVRpcServiceWebsite extends OMVRpcServiceAbstract
             
             foreach ($ports as $port) {
                 if (intval($port) == intval($object['port']))
-                    throw new OMVException('Port ' . $object['port'] . ' conflicts with OpenMediaVault\'s web GUI port.');
+                    throw new OMVException(OMVErrorMsg::E_CONFIG_SAVE_FAILED, 'Port ' . $object['port'] . ' conflicts with OpenMediaVault\'s web GUI port.');
             }
         }
         
