@@ -11,3 +11,5 @@ Architecture: all
 Depends: ${misc:Depends}, openmediavault (>= 0.5)
 Priority: optional
 Description: OpenMediaVault website plugin
+ web interface for hosting an additional website using 
+ OpenMediaVault's Apache2 instance.
