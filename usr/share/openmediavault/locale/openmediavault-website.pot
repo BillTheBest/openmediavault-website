@@ -35,8 +35,8 @@ msgstr "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFi
 msgid "Certificate"
 msgstr "Certificate"
 
-msgid "Content negotiated "MultiViews" are allowed."
-msgstr "Content negotiated "MultiViews" are allowed."
+msgid "Content negotiated \"MultiViews\" are allowed."
+msgstr "Content negotiated \"MultiViews\" are allowed."
 
 msgid "Directives controlling directory indexing (AddDescription, AddIcon, AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName, etc.)."
 msgstr "Directives controlling directory indexing (AddDescription, AddIcon, AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName, etc.)."
