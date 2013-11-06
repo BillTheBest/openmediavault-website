@@ -1,3 +1,9 @@
+openmediavault-website (0.5.3) stable; urgency=low
+
+  * Allow spaces in directory path
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Wed, 06 Nov 2013 06:47:27 -0500
+
 openmediavault-website (0.5.2) stable; urgency=low
 
   * Add long description

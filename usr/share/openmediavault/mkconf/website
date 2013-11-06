@@ -1,5 +1,5 @@
 #!/bin/sh
-# 
+#
 # Copyright (C) 2011 Ian Moore
 # Copyright (C) 2012 Marcel Beck
 # Copyright (C) 2013 OpenMediaVault Plugin Developers
@@ -66,7 +66,7 @@ cat <<EOF >>"/etc/apache2/sites-available/${SITECONF}"
     UseCanonicalName Off
     DirectoryIndex index.html index.htm index.php index.cgi index.pl
     ServerSignature Off
-    DocumentRoot ${sfpath}
+    DocumentRoot "${sfpath}"
     ErrorLog \${APACHE_LOG_DIR}/openmediavault-website_error.log
     CustomLog \${APACHE_LOG_DIR}/openmediavault-website_access.log combined
 EOF
@@ -91,7 +91,7 @@ xmlstarlet sel -t -m "//services/website" \
     -o "        Options +ExecCGI" -n \
     -o "        SetHandler fcgid-script" -n \
     -o "    </FilesMatch>" -n -b \
-    -o "    <Directory ${sfpath}>" -n \
+    -o "    <Directory \"${sfpath}\">" -n \
     -o "        Options " \
     -o "-ExecCGI " \
     -i "Indexes[. = '0']" -o "-" -b \
