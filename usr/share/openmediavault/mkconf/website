@@ -27,8 +27,8 @@ SITECONFFILE="/etc/apache2/sites-available/${SITECONF}"
 
 # Enable/disable site
 if [ "$(omv_config_get "//services/website/enable")" != "1" ]; then
-    a2dissite "$SITECONF"
-    rm $SITECONFFILE
+    /usr/sbin/a2dissite "${SITECONF}"
+    /bin/rm ${SITECONFFILE}
     exit 0
 fi
 
@@ -62,7 +62,7 @@ fi
 sfref=$(omv_config_get "//services/website/sharedfolderref")
 sfpath=$(omv_get_sharedfolder_path "${sfref}")
 
-cat <<EOF >>"/etc/apache2/sites-available/${SITECONF}"
+cat <<EOF >>"${SITECONFFILE}"
     UseCanonicalName Off
     DirectoryIndex index.html index.htm index.php index.cgi index.pl
     ServerSignature Off
@@ -120,16 +120,16 @@ xmlstarlet sel -t -m "//services/website" \
     -o "    </Directory>" -n \
     -i "enablessl[. = '1']" \
     -o "    SSLEngine on" -n \
-    -v "concat('    SSLCertificateFile ${OMV_CERTIFICATE_DIR}/certs/',sslcertificateref,'.crt')" -n \
-    -v "concat('    SSLCertificateKeyFile ${OMV_CERTIFICATE_DIR}/private/',sslcertificateref,'.key')" -n \
+    -v "concat('    SSLCertificateFile ${OMV_CERTIFICATE_DIR}/certs/${OMV_CERTIFICATE_PREFIX}',sslcertificateref,'.crt')" -n \
+    -v "concat('    SSLCertificateKeyFile ${OMV_CERTIFICATE_DIR}/private/${OMV_CERTIFICATE_PREFIX}',sslcertificateref,'.key')" -n \
     -b \
     -o "</VirtualHost>" -n \
     ${OMV_CONFIG_FILE} | xmlstarlet unesc >>${SITECONFFILE}
 
 # Run a configtest?
 if [ "$2" = "configtest" ]; then
-    a2ensite "$SITECONF" 2>&1 >/dev/null
-    apache2ctl configtest
+    /usr/sbin/a2ensite "${SITECONF}" 2>&1 >/dev/null
+    /usr/sbin/apache2ctl configtest
 else
-    a2ensite "$SITECONF"
+    /usr/sbin/a2ensite "${SITECONF}"
 fi
