@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# davidh2k <davidh1990@gmx.de>, 2013
+# Cyryl Sochacki <cyrylsochacki@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-website\n"
@@ -11,21 +11,21 @@ msgstr ""
 "POT-Creation-Date: 2013-11-14 14:13-0600\n"
 "PO-Revision-Date: 2013-11-14 20:14+0000\n"
 "Last-Translator: ryecoaaron <aaron27@ryecoinc.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/openmediavault-website/language/de/)\n"
+"Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/openmediavault-website/language/pl_PL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "Allow .htaccess files to override the items selected below."
-msgstr "Erlaube .htaccess Dateien das überschreiben der unten gewählten Objekte."
+msgstr ""
 
 msgid "Allow Override"
-msgstr "Erlaube Überschreiben"
+msgstr "Allow Override"
 
 msgid "Allow PHP scripts to be executed."
-msgstr "Erlaube das PHP Skripte ausgeführt werden."
+msgstr ""
 
 msgid "Auth Config"
 msgstr "Auth Config"
@@ -33,59 +33,59 @@ msgstr "Auth Config"
 msgid ""
 "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, "
 "AuthName, AuthType, AuthUserFile, Require, etc.)."
-msgstr "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, AuthName, AuthType, AuthUserFile, Require, etc.)."
+msgstr ""
 
 msgid "Certificate"
-msgstr "Zertifikat"
+msgstr "Certyfikat"
 
 msgid "Content negotiated \"MultiViews\" are allowed."
-msgstr "Inhaltlich ausgehandelte \"MultiViews\" sind erlaubt."
+msgstr ""
 
 msgid ""
 "Directives controlling directory indexing (AddDescription, AddIcon, "
 "AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, "
 "FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName, etc.)."
-msgstr "Direktiven die Ordner indexing kontrollieren (AddDescription, AddIcon, AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName, etc.)."
+msgstr ""
 
 msgid "Directives controlling host access (Allow, Deny and Order)."
-msgstr "Direktiven die den Host zugriff kontrollieren (Allow, Deny und Order)."
+msgstr ""
 
 msgid ""
 "Directives controlling specific directory features (Options and XBitHack)."
-msgstr "Direkttiven die spezifische Ordner Funktionen kontrollieren (Options und XBitHack)."
+msgstr ""
 
 msgid "Document root"
-msgstr "Wurzelverzeichnis"
+msgstr "Katalog główny"
 
 msgid "Enable"
-msgstr "Aktivieren"
+msgstr "Włączone"
 
 msgid "Enable SSL/TLS"
-msgstr "Aktiviere SSL/TLS"
+msgstr "Włącz SSL/TLS"
 
 msgid "Enable secure connection."
-msgstr "Aktiviere sichere Verbindung"
+msgstr "Włącz szyfrowane połączenie"
 
 msgid "Extra options"
-msgstr "Extra Optionen"
+msgstr "Dodatkowe opcje"
 
 msgid "Extra options for the &lt;VirtualHost&gt; directive."
-msgstr "Extra Optionen für die &lt;VirtualHost&gt; direktive."
+msgstr ""
 
 msgid "Follow SymLinks"
-msgstr "Folge SymLinks"
+msgstr ""
 
 msgid "For security reasons, PHP scripts will run as the selected user."
-msgstr "Aus Sicherheitsgründen werden PHP Skripte mit dem ausgewählten User ausgeführt."
+msgstr ""
 
 msgid "General settings"
-msgstr "Allgemeine Einstellungen"
+msgstr "Główne ustawienia"
 
 msgid ""
 "If a URL which maps to a directory is requested, and there is no "
 "DirectoryIndex (e.g., index.html) in that directory, then a formatted "
 "listing of the directory will be returned."
-msgstr "Wenn eine URL welche auf ein Verzeichnis verweist abgerufen wird in welchem sich kein DirectoryIndex (z.B. index.html) befindet, dann wird eine formatierte Auflisting des Verzeichnisses zurückgegeben."
+msgstr ""
 
 msgid ""
 "In a <b>port based</b> virtual host configuration, the website configured "
@@ -111,68 +111,68 @@ msgid "Includes"
 msgstr "Includes"
 
 msgid "Indexes"
-msgstr "Index"
+msgstr "Indexes"
 
 msgid "Limit"
 msgstr "Limit"
 
 msgid "MultiViews"
-msgstr "MultiViews"
+msgstr ""
 
 msgid "Name based"
-msgstr "Name basierend"
+msgstr ""
 
 msgid "Options"
-msgstr "Optionen"
+msgstr "Opcje"
 
 msgid "PHP"
 msgstr "PHP"
 
 msgid "Port based"
-msgstr "Port basierend"
+msgstr ""
 
 msgid "Secure connection"
-msgstr "Sichere Verbindung"
+msgstr "Szyfrowane połączenie"
 
 msgid "Server-side includes are permitted."
-msgstr "Serverseitige includes sind erlaubt."
+msgstr ""
 
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr "Ustawienia"
 
 msgid "SymLinks If Owner Match"
-msgstr "SymLinks wenn der Besitzer übereinstimmt"
+msgstr ""
 
 msgid "The SSL certificate."
-msgstr "Das SSL Zertifikat."
+msgstr "Certyfikat SSL"
 
 msgid ""
 "The location of the files to share. Permissions must be at least Users: "
 "read-only."
-msgstr "Der Speicherort der Dateien die geteilt werden sollen. Die Berechtigungen müssen mindestens Benutzer: nur-lesen sein."
+msgstr ""
 
 msgid "The server will follow symbolic links in the document root."
-msgstr "Der Server wird symbolischen Links im Wurzelverzeichnis folgen."
+msgstr ""
 
 msgid ""
 "The server will only follow symbolic links for which the target file or "
 "directory is owned by the same user id as the link."
-msgstr "Der Server wird symbolischen Links nur folgen wenn die Zieldatei oder das Zielverzeichnis den gleichen Besitzer hat wie der Link."
+msgstr ""
 
 msgid "User"
-msgstr "Benutzer"
+msgstr "Użytkownik"
 
 msgid "Virtual host Type"
-msgstr "Virtueller Host Typ"
+msgstr "Typ wirtualnego hosta"
 
 msgid "Virtual host hostname"
-msgstr "Virtueller Host Hostname"
+msgstr "Nazwa wirtualnego hosta"
 
 msgid "Virtual host port"
-msgstr "Virtueller Host Port"
+msgstr "Port wirtualnego hosta"
 
 msgid "Website"
-msgstr "Webseite"
+msgstr "Strona www"
 
 msgid "php.ini"
 msgstr "php.ini"
