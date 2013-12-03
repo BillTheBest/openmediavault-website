@@ -243,6 +243,7 @@ Ext.define("OMV.module.admin.service.website.Settings", {
             },
             items : [{
                 xtype : "panel",
+                border: false,
                 html  : _("Allow .htaccess files to override the items selected below.")
             },{
                 name       : "AuthConfig",
