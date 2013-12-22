@@ -3,32 +3,31 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Cyryl Sochacki <cyrylsochacki@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-17 14:03-0600\n"
-"PO-Revision-Date: 2013-11-29 10:59+0000\n"
-"Last-Translator: Cyryl Sochacki <cyrylsochacki@gmail.com>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/openmediavault-website/language/pl_PL/)\n"
+"PO-Revision-Date: 2013-12-03 12:19+0000\n"
+"Last-Translator: ryecoaaron <aaron27@ryecoinc.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/openmediavault-website/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl_PL\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Allow .htaccess files to override the items selected below."
 msgstr ""
 
 msgid "Allow Override"
-msgstr "Allow Override"
+msgstr ""
 
 msgid "Allow PHP scripts to be executed."
-msgstr "Pozwól na wykonywanie skryptów PHP"
+msgstr ""
 
 msgid "Auth Config"
-msgstr "Auth Config"
+msgstr ""
 
 msgid ""
 "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, "
@@ -36,7 +35,7 @@ msgid ""
 msgstr ""
 
 msgid "Certificate"
-msgstr "Certyfikat"
+msgstr ""
 
 msgid "Content negotiated \"MultiViews\" are allowed."
 msgstr ""
@@ -55,31 +54,31 @@ msgid ""
 msgstr ""
 
 msgid "Document root"
-msgstr "Katalog główny"
+msgstr ""
 
 msgid "Enable"
-msgstr "Włączone"
+msgstr ""
 
 msgid "Enable SSL/TLS"
-msgstr "Włącz SSL/TLS"
+msgstr ""
 
 msgid "Enable secure connection."
-msgstr "Włącz szyfrowane połączenie"
+msgstr ""
 
 msgid "Extra options"
-msgstr "Dodatkowe opcje"
+msgstr ""
 
 msgid "Extra options for the &lt;VirtualHost&gt; directive."
 msgstr ""
 
 msgid "Follow SymLinks"
-msgstr "Follow SymLinks"
+msgstr ""
 
 msgid "For security reasons, PHP scripts will run as the selected user."
 msgstr ""
 
 msgid "General settings"
-msgstr "Główne ustawienia"
+msgstr ""
 
 msgid ""
 "If a URL which maps to a directory is requested, and there is no "
@@ -111,13 +110,13 @@ msgid ""
 msgstr ""
 
 msgid "Includes"
-msgstr "Includes"
+msgstr ""
 
 msgid "Indexes"
-msgstr "Indexes"
+msgstr ""
 
 msgid "Limit"
-msgstr "Limit"
+msgstr ""
 
 msgid "MultiViews"
 msgstr ""
@@ -126,28 +125,28 @@ msgid "Name based"
 msgstr ""
 
 msgid "Options"
-msgstr "Opcje"
+msgstr ""
 
 msgid "PHP"
-msgstr "PHP"
+msgstr ""
 
 msgid "Port based"
 msgstr ""
 
 msgid "Secure connection"
-msgstr "Szyfrowane połączenie"
+msgstr ""
 
 msgid "Server-side includes are permitted."
 msgstr ""
 
 msgid "Settings"
-msgstr "Ustawienia"
+msgstr ""
 
 msgid "SymLinks If Owner Match"
 msgstr ""
 
 msgid "The SSL certificate."
-msgstr "Certyfikat SSL"
+msgstr ""
 
 msgid ""
 "The location of the files to share. Permissions must be at least Users: "
@@ -163,19 +162,19 @@ msgid ""
 msgstr ""
 
 msgid "User"
-msgstr "Użytkownik"
+msgstr ""
 
 msgid "Virtual host Type"
-msgstr "Typ wirtualnego hosta"
+msgstr ""
 
 msgid "Virtual host hostname"
-msgstr "Nazwa wirtualnego hosta"
+msgstr ""
 
 msgid "Virtual host port"
-msgstr "Port wirtualnego hosta"
+msgstr ""
 
 msgid "Website"
-msgstr "Strona www"
+msgstr ""
 
 msgid "php.ini"
-msgstr "php.ini"
+msgstr ""

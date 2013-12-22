@@ -3,40 +3,40 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Cyryl Sochacki <cyrylsochacki@gmail.com>, 2013
+# dezi121 <by@songming.me>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-17 14:03-0600\n"
-"PO-Revision-Date: 2013-11-29 10:59+0000\n"
-"Last-Translator: Cyryl Sochacki <cyrylsochacki@gmail.com>\n"
-"Language-Team: Polish (Poland) (http://www.transifex.com/projects/p/openmediavault-website/language/pl_PL/)\n"
+"PO-Revision-Date: 2013-12-15 06:00+0000\n"
+"Last-Translator: dezi121 <by@songming.me>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/openmediavault-website/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pl_PL\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Allow .htaccess files to override the items selected below."
-msgstr ""
+msgstr "允许.htaccess文件覆盖下面选项"
 
 msgid "Allow Override"
-msgstr "Allow Override"
+msgstr "允许覆盖"
 
 msgid "Allow PHP scripts to be executed."
-msgstr "Pozwól na wykonywanie skryptów PHP"
+msgstr "允许执行PHP脚本。"
 
 msgid "Auth Config"
-msgstr "Auth Config"
+msgstr "配置验证"
 
 msgid ""
 "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, "
 "AuthName, AuthType, AuthUserFile, Require, etc.)."
-msgstr ""
+msgstr "授权指令 (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, AuthName, AuthType, AuthUserFile, Require, 等)。"
 
 msgid "Certificate"
-msgstr "Certyfikat"
+msgstr "证书"
 
 msgid "Content negotiated \"MultiViews\" are allowed."
 msgstr ""
@@ -45,47 +45,47 @@ msgid ""
 "Directives controlling directory indexing (AddDescription, AddIcon, "
 "AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, "
 "FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName, etc.)."
-msgstr ""
+msgstr "控制指令目录索引(AddDescription, AddIcon, AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName,等)。"
 
 msgid "Directives controlling host access (Allow, Deny and Order)."
-msgstr ""
+msgstr "主机访问控制指令(Allow, Deny and Order)."
 
 msgid ""
 "Directives controlling specific directory features (Options and XBitHack)."
 msgstr ""
 
 msgid "Document root"
-msgstr "Katalog główny"
+msgstr "文档根目录"
 
 msgid "Enable"
-msgstr "Włączone"
+msgstr "启动"
 
 msgid "Enable SSL/TLS"
-msgstr "Włącz SSL/TLS"
+msgstr "启用SSL/TLS"
 
 msgid "Enable secure connection."
-msgstr "Włącz szyfrowane połączenie"
+msgstr "启用安全连接。"
 
 msgid "Extra options"
-msgstr "Dodatkowe opcje"
+msgstr "附加选项"
 
 msgid "Extra options for the &lt;VirtualHost&gt; directive."
-msgstr ""
+msgstr "虚拟主机的附加选项命令"
 
 msgid "Follow SymLinks"
-msgstr "Follow SymLinks"
+msgstr "遵循符号链接"
 
 msgid "For security reasons, PHP scripts will run as the selected user."
-msgstr ""
+msgstr "出于安全考虑，PHP脚本将以选者用户来执行。"
 
 msgid "General settings"
-msgstr "Główne ustawienia"
+msgstr "常规设置"
 
 msgid ""
 "If a URL which maps to a directory is requested, and there is no "
 "DirectoryIndex (e.g., index.html) in that directory, then a formatted "
 "listing of the directory will be returned."
-msgstr ""
+msgstr "如果URL请求目录没有目录索引文件(如 index.html)，将会返回该目录的文件列表。"
 
 msgid ""
 "In a <b>name based</b> virtual host configuration, the website configured "
@@ -111,43 +111,43 @@ msgid ""
 msgstr ""
 
 msgid "Includes"
-msgstr "Includes"
+msgstr "包含"
 
 msgid "Indexes"
-msgstr "Indexes"
+msgstr "索引"
 
 msgid "Limit"
-msgstr "Limit"
+msgstr "限制"
 
 msgid "MultiViews"
 msgstr ""
 
 msgid "Name based"
-msgstr ""
+msgstr "基于主机名"
 
 msgid "Options"
-msgstr "Opcje"
+msgstr "选项"
 
 msgid "PHP"
 msgstr "PHP"
 
 msgid "Port based"
-msgstr ""
+msgstr "基于主机端口"
 
 msgid "Secure connection"
-msgstr "Szyfrowane połączenie"
+msgstr "安全连接"
 
 msgid "Server-side includes are permitted."
 msgstr ""
 
 msgid "Settings"
-msgstr "Ustawienia"
+msgstr "设置"
 
 msgid "SymLinks If Owner Match"
 msgstr ""
 
 msgid "The SSL certificate."
-msgstr "Certyfikat SSL"
+msgstr "SSL证书"
 
 msgid ""
 "The location of the files to share. Permissions must be at least Users: "
@@ -163,19 +163,19 @@ msgid ""
 msgstr ""
 
 msgid "User"
-msgstr "Użytkownik"
+msgstr "用户"
 
 msgid "Virtual host Type"
-msgstr "Typ wirtualnego hosta"
+msgstr "虚拟主机类型"
 
 msgid "Virtual host hostname"
-msgstr "Nazwa wirtualnego hosta"
+msgstr "虚拟主机名字"
 
 msgid "Virtual host port"
-msgstr "Port wirtualnego hosta"
+msgstr "虚拟主机端口"
 
 msgid "Website"
-msgstr "Strona www"
+msgstr "Website"
 
 msgid "php.ini"
 msgstr "php.ini"

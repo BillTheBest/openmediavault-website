@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Alexander Savchenko <>, 2013
+# артур Мудрых <arturmon82@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-14 14:13-0600\n"
-"PO-Revision-Date: 2013-11-14 20:14+0000\n"
-"Last-Translator: ryecoaaron <aaron27@ryecoinc.com>\n"
+"POT-Creation-Date: 2013-11-17 14:03-0600\n"
+"PO-Revision-Date: 2013-12-22 07:44+0000\n"
+"Last-Translator: артур Мудрых <arturmon82@gmail.com>\n"
 "Language-Team: Russian (http://www.transifex.com/projects/p/openmediavault-website/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,43 +20,43 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 msgid "Allow .htaccess files to override the items selected below."
-msgstr ""
+msgstr "Разрешить. htaccess файлы для переопределения элементов, выбранных ниже."
 
 msgid "Allow Override"
-msgstr ""
+msgstr "Allow Override"
 
 msgid "Allow PHP scripts to be executed."
-msgstr ""
+msgstr "Разрешить выполнение PHP скриптов."
 
 msgid "Auth Config"
-msgstr ""
+msgstr "Auth Config"
 
 msgid ""
 "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, "
 "AuthName, AuthType, AuthUserFile, Require, etc.)."
-msgstr ""
+msgstr "Директивы авторизации (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, AuthName, AuthType, AuthUserFile, Require, etc.)."
 
 msgid "Certificate"
 msgstr "Сертификат"
 
 msgid "Content negotiated \"MultiViews\" are allowed."
-msgstr ""
+msgstr "Содержимое переговоров \"MultiViews\" не допускается."
 
 msgid ""
 "Directives controlling directory indexing (AddDescription, AddIcon, "
 "AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, "
 "FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName, etc.)."
-msgstr ""
+msgstr "Директивы управления индексации каталога (AddDescription, AddIcon, AddIconByEncoding, AddIconByType, DefaultIcon, DirectoryIndex, FancyIndexing, HeaderName, IndexIgnore, IndexOptions, ReadmeName и т.д.)."
 
 msgid "Directives controlling host access (Allow, Deny and Order)."
-msgstr ""
+msgstr "Директивы контроля доступа хосту (Allow, Deny и Order)."
 
 msgid ""
 "Directives controlling specific directory features (Options and XBitHack)."
-msgstr ""
+msgstr "Директивы управления особенностями каталога (Options и XBitHack)."
 
 msgid "Document root"
-msgstr ""
+msgstr "Корень документа"
 
 msgid "Enable"
 msgstr "Включить"
@@ -70,13 +71,13 @@ msgid "Extra options"
 msgstr "Расширенные опции"
 
 msgid "Extra options for the &lt;VirtualHost&gt; directive."
-msgstr ""
+msgstr "Дополнительные опции для &lt;VirtualHost&gt; директивы."
 
 msgid "Follow SymLinks"
-msgstr ""
+msgstr "Follow SymLinks"
 
 msgid "For security reasons, PHP scripts will run as the selected user."
-msgstr ""
+msgstr "Для соображений безопасности Сценарии PHP будут работать от выбранного пользователя."
 
 msgid "General settings"
 msgstr "Основные настройки"
@@ -85,7 +86,15 @@ msgid ""
 "If a URL which maps to a directory is requested, and there is no "
 "DirectoryIndex (e.g., index.html) in that directory, then a formatted "
 "listing of the directory will be returned."
-msgstr ""
+msgstr "Если URL который отображается в каталоге был запрошен, и не существует каталога индекса (например, index.html) в этом каталоге, то будет возвращен отформатированный список каталогов."
+
+msgid ""
+"In a <b>name based</b> virtual host configuration, the website configured "
+"here will be accessed as a different host name. E.g. http://some-host/. "
+"Where the name 'some-host' must resolve to the same IP address as "
+"OpenMediaVault. This usually requires that you have a DNS server on your "
+"network, or that a public DNS server has an entry for <b>some-host</b>."
+msgstr "В <b>name based</b> виртуальную конфигурацию узла, к веб-сайту, сконфигурированному здесь, получат доступ как другим именем хоста. Например, http://some-host/. Где имя 'some-host' должно разрешить к тому же IP-адресу как OpenMediaVault. Для этого обычно требуется, чтобы у Вас в сети был сервер DNS или у общедоступного сервера DNS есть запись для <b>some-host</b>."
 
 msgid ""
 "In a <b>port based</b> virtual host configuration, the website configured "
@@ -93,34 +102,29 @@ msgid ""
 " but on a different port. E.g. http://some-host:8500/. When using this type "
 "of configuration, be sure that the website port configured here is not the "
 "same port on which OpenMediaVault is running. This can be checked / changed "
-"in System -> General Settings.<Br /><br>In a <b>name based</b> virtual host "
-"configuration, the website configured here will be accessed as a different "
-"host name. E.g. http://some-host/. Where the name 'some-host' must resolve "
-"to the same IP address as OpenMediaVault. This usually requires that you "
-"have a DNS server on your network, or that a public DNS server has an entry "
-"for <b>some-host</b>."
-msgstr ""
+"in System -> General Settings."
+msgstr "В порту <b>port based</b> виртуальная конфигурация узла веб-сайта, сконфигурированная здесь, будет доступна по тому же IP / имени сервера OpenMediaVault, но на различном порту. Например http://some-host:8500/. При использовании этого типа конфигурации, убедитесь, что порт веб-сайта настроен здесь не тот же самый порт, на котором OpenMediaVault работает. Это можно проверит / изменения в системе -> Общие настройки."
 
 msgid ""
 "In order to create a website that does not conflict with OpenMediaVault's "
 "web interface, this plugin will create a virtual host (a virtual website) in"
 " OpenMediaVault's web server."
-msgstr ""
+msgstr "Для того, чтобы создать сайт, который не вступает в противоречие с веб-интерфейсом OpenMediaVault, этот плагин будет создать виртуальный хост (виртуальный веб-сайт) в веб-сервер в OpenMediaVault."
 
 msgid "Includes"
-msgstr ""
+msgstr "Includes"
 
 msgid "Indexes"
-msgstr ""
+msgstr "Indexes"
 
 msgid "Limit"
 msgstr "Лимит"
 
 msgid "MultiViews"
-msgstr ""
+msgstr "MultiViews"
 
 msgid "Name based"
-msgstr ""
+msgstr "На базе имени"
 
 msgid "Options"
 msgstr "Опции"
@@ -129,19 +133,19 @@ msgid "PHP"
 msgstr "PHP"
 
 msgid "Port based"
-msgstr ""
+msgstr "На базе порта"
 
 msgid "Secure connection"
 msgstr "Безопасное соединение"
 
 msgid "Server-side includes are permitted."
-msgstr ""
+msgstr "Включает разрешения со стороны сервера."
 
 msgid "Settings"
 msgstr "Настройки"
 
 msgid "SymLinks If Owner Match"
-msgstr ""
+msgstr "SymLinks If Owner Match"
 
 msgid "The SSL certificate."
 msgstr "SSL сертификат."
@@ -149,30 +153,30 @@ msgstr "SSL сертификат."
 msgid ""
 "The location of the files to share. Permissions must be at least Users: "
 "read-only."
-msgstr ""
+msgstr "Расположение файлов для общего доступа. Разрешения должны быть по крайней мере для пользователей: только для чтения."
 
 msgid "The server will follow symbolic links in the document root."
-msgstr ""
+msgstr "Сервер будет следовать символическим ссылкам в корневом каталоге."
 
 msgid ""
 "The server will only follow symbolic links for which the target file or "
 "directory is owned by the same user id as the link."
-msgstr ""
+msgstr "Сервер будет следовать только тем символическим ссылкам, для которых целевой файл или каталог принадлежит тому же идентификатору пользователя, что и ссылка."
 
 msgid "User"
 msgstr "Пользователь"
 
 msgid "Virtual host Type"
-msgstr ""
+msgstr "Тип виртуального хоста"
 
 msgid "Virtual host hostname"
-msgstr ""
+msgstr "Виртуальное имя хоста"
 
 msgid "Virtual host port"
-msgstr ""
+msgstr "Виртуальный порт хоста"
 
 msgid "Website"
-msgstr ""
+msgstr "Веб-сайт"
 
 msgid "php.ini"
 msgstr "php.ini"
