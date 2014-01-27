@@ -8,7 +8,7 @@ Homepage: http://omv-extras.org
 
 Package: openmediavault-website
 Architecture: all
-Depends: ${misc:Depends}, openmediavault (>= 0.5)
+Depends: ${misc:Depends}, openmediavault (>= 0.5), openmediavault (<< 0.6)
 Priority: optional
 Description: OpenMediaVault website plugin
  web interface for hosting an additional website using 
