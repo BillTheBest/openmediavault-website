@@ -1,3 +1,10 @@
+openmediavault-website (0.5.6) stable; urgency=low
+
+  * Increased LimitRequestFieldSize to 32768
+  * Update locales
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Mon, 27 Jan 2014 10:43:27 -0500
+
 openmediavault-website (0.5.5) stable; urgency=low
 
   * Add locales

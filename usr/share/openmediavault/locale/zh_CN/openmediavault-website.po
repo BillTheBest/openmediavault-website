@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# dezi121 <by@songming.me>, 2013
+# dezi121 <by@songming.me>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: openmediavault-website\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-17 14:03-0600\n"
-"PO-Revision-Date: 2013-12-15 06:00+0000\n"
+"PO-Revision-Date: 2014-01-09 15:36+0000\n"
 "Last-Translator: dezi121 <by@songming.me>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/openmediavault-website/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgid "Allow PHP scripts to be executed."
 msgstr "允许执行PHP脚本。"
 
 msgid "Auth Config"
-msgstr "配置验证"
+msgstr "Auth Config"
 
 msgid ""
 "Authorization directives (AuthDBMGroupFile, AuthDBMUserFile, AuthGroupFile, "
@@ -39,7 +39,7 @@ msgid "Certificate"
 msgstr "证书"
 
 msgid "Content negotiated \"MultiViews\" are allowed."
-msgstr ""
+msgstr "允许以 \"MultiViews\" 处理内容."
 
 msgid ""
 "Directives controlling directory indexing (AddDescription, AddIcon, "
@@ -52,7 +52,7 @@ msgstr "主机访问控制指令(Allow, Deny and Order)."
 
 msgid ""
 "Directives controlling specific directory features (Options and XBitHack)."
-msgstr ""
+msgstr "特定目录功能指令控制 (Options and XBitHack)."
 
 msgid "Document root"
 msgstr "文档根目录"
@@ -73,7 +73,7 @@ msgid "Extra options for the &lt;VirtualHost&gt; directive."
 msgstr "虚拟主机的附加选项命令"
 
 msgid "Follow SymLinks"
-msgstr "遵循符号链接"
+msgstr "Follow SymLinks"
 
 msgid "For security reasons, PHP scripts will run as the selected user."
 msgstr "出于安全考虑，PHP脚本将以选者用户来执行。"
@@ -93,7 +93,7 @@ msgid ""
 "Where the name 'some-host' must resolve to the same IP address as "
 "OpenMediaVault. This usually requires that you have a DNS server on your "
 "network, or that a public DNS server has an entry for <b>some-host</b>."
-msgstr ""
+msgstr " <b>基于主机名</b> 的虚拟主机配置，该配置允许不同的主机名来访问网站。例如：http://some-host/， 'some-host' 主机名必须解析到和 OpenMediaVault 相同的IP地址。这通常要求你的网络中有 DNS 服务器，或者在公共 DNS 服务器设置你的主机 <b>some-host</b> 解析。"
 
 msgid ""
 "In a <b>port based</b> virtual host configuration, the website configured "
@@ -102,25 +102,25 @@ msgid ""
 "of configuration, be sure that the website port configured here is not the "
 "same port on which OpenMediaVault is running. This can be checked / changed "
 "in System -> General Settings."
-msgstr ""
+msgstr " <b>基于端口</b> 的虚拟主机配置，该配置允许和 OpenMediaVault 相同的 IP/主机名来访问网站，但是端口要不一样。例如：http://some-host:8500/，切记该配置下网站的端口要和 OpenMediaVault 的 WebGUI 端口不同。可以在 系统 -> 常规设置 中查看  WebGUI 的端口。"
 
 msgid ""
 "In order to create a website that does not conflict with OpenMediaVault's "
 "web interface, this plugin will create a virtual host (a virtual website) in"
 " OpenMediaVault's web server."
-msgstr ""
+msgstr "为了创建一个网站并且与 OpenMediaVault 的Web界面不冲突，本插件将在 OpenMediaVault 主机上创建虚拟主机 (虚拟网站)。"
 
 msgid "Includes"
-msgstr "包含"
+msgstr "Includes"
 
 msgid "Indexes"
-msgstr "索引"
+msgstr "Indexes"
 
 msgid "Limit"
-msgstr "限制"
+msgstr "Limit"
 
 msgid "MultiViews"
-msgstr ""
+msgstr "MultiViews"
 
 msgid "Name based"
 msgstr "基于主机名"
@@ -138,13 +138,13 @@ msgid "Secure connection"
 msgstr "安全连接"
 
 msgid "Server-side includes are permitted."
-msgstr ""
+msgstr "允许服务器端 includes"
 
 msgid "Settings"
 msgstr "设置"
 
 msgid "SymLinks If Owner Match"
-msgstr ""
+msgstr "SymLinks If Owner Match"
 
 msgid "The SSL certificate."
 msgstr "SSL证书"
@@ -152,15 +152,15 @@ msgstr "SSL证书"
 msgid ""
 "The location of the files to share. Permissions must be at least Users: "
 "read-only."
-msgstr ""
+msgstr "共享文件的位置至少允许用户权限：只读。"
 
 msgid "The server will follow symbolic links in the document root."
-msgstr ""
+msgstr "服务器将在根目录遵循符号链接。"
 
 msgid ""
 "The server will only follow symbolic links for which the target file or "
 "directory is owned by the same user id as the link."
-msgstr ""
+msgstr "在目标文件或目录的拥有者和链接一样时，服务器才遵循符号链接。"
 
 msgid "User"
 msgstr "用户"
