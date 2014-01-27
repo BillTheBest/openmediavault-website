@@ -69,6 +69,7 @@ cat <<EOF >>"${SITECONFFILE}"
     DocumentRoot "${sfpath}"
     ErrorLog \${APACHE_LOG_DIR}/openmediavault-website_error.log
     CustomLog \${APACHE_LOG_DIR}/openmediavault-website_access.log combined
+    LimitRequestFieldSize 32768
 EOF
 
 # CGI user
